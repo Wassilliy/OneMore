@@ -1,0 +1,261 @@
+
+/*GENERAL RESET START*/
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+body{
+	background: #fff;
+	background-size: cover;
+	margin: 0 auto;
+}
+h1, h2, h3, h4, h5, h6, p{
+	margin: 0;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+a:hover,
+a:focus,
+a:active,
+a:visited{
+	text-decoration: none;
+}
+ul, ol{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+img{
+	max-width: 100%;
+	border: none;
+}
+input, button, textarea{
+	outline: none;
+}
+textarea{
+	resize: vertical;
+}
+/*GENERAL RESET END*/
+/*GENERAL STYLE START*/
+body{
+	background: url(../jpg/bg.jpg);
+	background-size: cover;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.fontBold{
+	font-weight: 700;
+}
+.fontRegular{
+	font-weight: 400;
+	font-size: 16px;
+}
+h1{
+	font-size: 36px;
+}
+h2{
+	color: #1800ff;
+	font-size: 24px;
+	margin-bottom: 28px;
+}
+.thirdScreenHeadline h2{
+	color: #ff0060;
+}
+
+.container{
+	width: 850px;
+	padding: 0 10px;
+	margin: 0 auto;
+	text-align: center;
+}
+.firstScreen{
+	margin: 140px 0;
+	color: #fff;
+}
+.firstScreenLogo{
+	height: 130px;
+}
+.firstScreenHeadline{
+	margin-top: 55px;
+}
+.firstScreenInput{
+	width: 600px;
+	margin: 20px auto 0 auto;
+}
+.firstScreenHeadline p{
+	font-size: 12.5px;
+	width: 600px;
+	margin: 0 auto;
+}
+.secondScreen{
+	margin:131px 0;
+}
+.secondScreenCatalog{
+	margin-top: 67px;
+}
+.moodbox{
+	position: relative;
+	width: 100%; 
+	margin-bottom: 10%;
+}
+.moodbox:before {
+	content: "";
+	display: block;
+	padding-top: 100%;
+}
+.moodboxContent{
+	position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #fff;
+}
+.articleBackground{
+	height: 100%;
+	background: #fff;
+	padding: 1rem;
+}
+.article{
+	/*height: 100%;*/
+}
+.firstArticleContent{
+	position: relative;
+}
+.firstArticleContent img{
+	position: absolute;
+	left: 0;
+	max-width: 100%;
+    height: auto;
+}
+.firstArticleText{
+	position: relative;
+	left: 15px;
+	top: 15px;
+}
+.whiteArticle{
+	color: #fff;
+}
+.redTitle{
+	font-family: 'Montserrat', sans-serif;
+	color: #ff0060;
+	font-size: 0.8rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: left;
+	margin-bottom: 0.8rem;
+}
+.blueTitle{
+	font-family: 'Montserrat', sans-serif;
+	color: #1800ff;
+	font-size: 0.8rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: left;
+	margin-bottom: 0.8rem;
+}
+.articles p{
+	font-size: 0.6rem;
+	text-align: left;
+}
+.secondArticleContent{
+	float: left;
+	width: 50%;
+	padding-right: 20px;
+}
+.secondArticle img{
+	float: left;
+	max-height: 100%;
+	width: auto;
+	width: 50%;
+}
+.secondrow{
+	margin-top: 30px;
+}
+.thirdArticleContent{
+	float: left;
+	width: 50%;
+	padding-right: 20px;
+}
+.thirdArticle img{
+	float: left;
+	max-height: 100%;
+	width: auto;
+	width: 50%;
+}
+
+.fourthArticleContent{
+	position: relative;
+}
+.fourthArticleContent img{
+	position: absolute;
+	left: 0;
+	max-width: 100%;
+    height: auto;
+}
+.fourthArticleText{
+	position: relative;
+	width: 50%;
+	left: 50%;
+	top: 15px;
+}
+.articleLink{
+	font-size: 0.6rem;
+	text-align: right;
+	color: #ff0060;
+}
+.article-botton{
+	background: #f0ff00;
+	width: 50%;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 70px;
+	-webkit-box-shadow: 0px 0px 54px 2px rgba(255,0,102,0.57);
+	-moz-box-shadow: 0px 0px 54px 2px rgba(255,0,102,0.57);
+	box-shadow: 0px 0px 54px 2px rgba(255,0,102,0.57);
+
+}
+
+.footer{
+	margin-top: 130px;
+}
+.navbar-text{
+	text-align: left;
+	font-size: 0.6rem;
+}
+.navbar-nav a{
+	font-size: 0.6rem;
+}
+
+.navbar img {
+     width: 10%;
+     height: auto;
+     text-align: center;
+     position: absolute;
+    left: 50%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
+}
+
+
+/*.col-12:before, .col-md-4:before, .col-lg-3:before {
+	content: "";
+	display: block;
+	width: 0;
+	max-width: 100%;
+	padding-top: 100%;  /*С помощью этого padding мы задаем высоту равную ширине блока 
+}
+.moodboxContent{
+    background: #fff;
+}*/
+/*GENERAL START END*/
